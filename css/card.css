@@ -1,5 +1,4 @@
 .card {
-    /* text-align: center; */
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -24,13 +23,13 @@
 .card-description {
     font: var(--body1);
     font-weight: bold;
-    text-emphasis: left;
+    text-align: left;
 }
 
 .card p {
     font: var(--caption);
     opacity: 0.5;
-    text-emphasis: left;
+    text-align: left;
 }
 
 @media screen and (min-width:768px) {
@@ -46,6 +45,9 @@
     }
     .card-description {
         font: var(--headLine4);
+        font-weight: bold;
+    }
+    .wrapper section:nth-child(5) .card-description {
         font-weight: normal;
     }
     .card p {
