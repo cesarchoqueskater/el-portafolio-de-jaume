@@ -3,6 +3,12 @@
     padding-block-end: 40px;
 }
 
+.project-button {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 .project-description {
     display: flex;
     flex-direction: column;
@@ -49,7 +55,7 @@
     }
     .project-button {
         display: flex;
-        gap: 16px;
+        flex-direction: row;
     }
     .project-button .button.is-secondary {
         order: 2;
