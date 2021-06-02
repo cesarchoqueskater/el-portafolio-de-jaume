@@ -42,9 +42,16 @@
         flex: 1;
     }
     /* Selector Impar */
-    .wrapper .project:nth-of-type(even) .project-image {
+    .wrapper .project:nth-of-type(odd) .project-image {
         order: 2;
         flex: 1;
         text-align: center;
+    }
+    .project-button {
+        display: flex;
+        gap: 16px;
+    }
+    .project-button .button.is-secondary {
+        order: 2;
     }
 }
