@@ -1,4 +1,4 @@
-.footer {
+.footer-content {
     color: var(--white);
     text-align: center;
 }
@@ -16,7 +16,7 @@
     .footer-logo {
         display: block;
     }
-    .footer {
+    .footer-content {
         display: flex;
         justify-content: space-between;
         align-items: center;
