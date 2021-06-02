@@ -1,19 +1,19 @@
 .card {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    padding-inline-start: 16px;
-    padding-inline-end: 16px;
     padding-block-start: 40px;
     padding-block-end: 40px;
 }
 
 .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: rgba(255, 255, 255, 0.2);
     box-shadow: inset 2px 2px 3px 0px rgb(255 255 255 / 50%);
     border-radius: 24px;
-    padding: 40px;
+    padding: 24px;
     color: var(--purple);
+    height: 284px;
 }
 
 .card-image {
@@ -35,22 +35,23 @@
 @media screen and (min-width:768px) {
     .card {
         text-align: center;
-        padding-inline-start: 50px;
-        padding-inline-end: 50px;
         padding-block-start: 80px;
         padding-block-end: 80px;
     }
     .card-content {
+        height: 493px;
         padding: 80px;
     }
     .card-description {
+        text-align: center;
         font: var(--headLine4);
         font-weight: bold;
     }
-    .wrapper section:nth-child(5) .card-description {
+    .wrapper section:nth-child(4) .card-description span {
         font-weight: normal;
     }
     .card p {
+        text-align: center;
         font: var(--headLine5);
         opacity: 0.5;
     }
